@@ -5,7 +5,7 @@ class Fixed
 {
 	public :
 		Fixed();
-		Fixed(Fixed& obj);
+		Fixed(const Fixed& obj);
 		~Fixed();
 
 		Fixed &operator=(const Fixed& obj);

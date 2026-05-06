@@ -33,7 +33,7 @@ Fixed::Fixed(const float val)
 //basically the most usefull copy operator overload EVER, peak engineering 
 Fixed& Fixed::operator=(const Fixed& obj)
 {
-	std::cout << "Copy assignement operator called" << std::endl;
+	std::cout << "Copy assignment operator called" << std::endl;
 	if (this != &obj)
 		_raw = obj.getRawBits();
 	return (*this);

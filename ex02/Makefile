@@ -3,8 +3,8 @@ NAME = Now
 CC = c++
 FLAGS = -std=c++98 -Wall -Wextra -Werror
 
-SRC = main_test.cpp Fixed.cpp
-OBJ = $(SRC:o.cpp=.o)
+SRC = main.cpp Fixed.cpp
+OBJ = $(SRC:.cpp=.o)
 
 all : $(NAME)
 

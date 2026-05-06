@@ -4,7 +4,7 @@ CC = c++
 FLAGS = -std=c++98 -Wall -Wextra -Werror
 
 SRC = main.cpp Fixed.cpp
-OBJ = $(SRC:o.cpp=.o)
+OBJ = $(SRC:.cpp=.o)
 
 all : $(NAME)
 
