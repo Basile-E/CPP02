@@ -1,0 +1,21 @@
+NAME = Now
+
+CC = c++
+FLAGS = -std=c++98 -Wall -Wextra -Werror
+
+SRC = main_test.cpp Fixed.cpp
+OBJ = $(SRC:o.cpp=.o)
+
+all : $(NAME)
+
+$(NAME) : $(OBJ)
+	$(CC) $(FLAGS) $(OBJ) -o $(NAME)
+
+clean :
+	rm -f *.o
+
+fclean : clean
+	rm -f $(NAME);
+
+re : fclean
+	$(MAKE) all
