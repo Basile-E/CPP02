@@ -16,4 +16,14 @@ Shalow & Deep copy : https://www.geeksforgeeks.org/cpp/shallow-copy-and-deep-cop
 
 stream insertion overloading : https://www.geeksforgeeks.org/cpp/overloading-stream-insertion-operators-c/
 
+
+### ex01 :
 roundf : https://onlinedocs.microchip.com/oxy/GUID-07E1F2AB-C1A0-411C-966F-8738802C42B9-en-US-4/GUID-1EAA7649-4162-462E-AECF-A05706231394.html#:~:text=Returns%20the%20double%20precision%20floating,rounded%20to%20an%20integer%20value.&text=Returns%20the%20value%20of%20x,single%20precision%20floating%2Dpoint%20value.
+
+### ex02 :
+Increment & Decrement operators overloading : https://www.geeksforgeeks.org/cpp/increment-and-decrement-operator-overloading-in-c/
+
+comparaison operators overloading : https://stackoverflow.com/questions/10575766/comparison-operator-overloading 
+https://www.geeksforgeeks.org/cpp/operator-overloading-cpp/
+
+arithmetic operators overloading : https://www.codecademy.com/learn/learn-advanced-c-plus-plus/modules/operator-overloading-in-c-plus-plus/cheatsheet
